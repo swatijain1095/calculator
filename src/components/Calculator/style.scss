@@ -1,0 +1,19 @@
+@import "../../variables";
+
+.calculator {
+  display: flex;
+  flex-direction: column;
+  padding: $small;
+  gap: $medium;
+  height: 100%;
+
+  &__input {
+    padding: $large;
+    border-radius: $extra-small;
+    border: none;
+    background-color: $light-gray;
+    font-size: 28px;
+    font-weight: 700;
+    color: $vdark-grayish-yellow;
+  }
+}
